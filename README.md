@@ -1,30 +1,29 @@
-https://jerwest.github.io/IA1/index.html
+https://github.com/jerwest/AD320-IA2-Westfall.git
 
-This repository is for Individual Assignment #1 in AD 320 - Web App Development at North Seattle College.
+This repository is for Individual Assignment #2 in AD 320 - Web App Development at North Seattle College.
 
-Individual Assignment #1
+Individual Assignment #2
 
-For this assignment, you are to utilize the Github Pages feature to create a single page, static web site that includes the following: 
+For this assignment, you will create an HTML page that contains a form, and a PHP script that will process the form data and display it back to the user.
 
-An HTML page that uses the following:
-one heading element
-one paragraph element,
-one image element, 
-one hyperlink element that opens a new window or tab and is inside your paragraph element
-one button to be used in the javascript section. 
-Additionally, the title element should include your name.  
+For your HTML page, your page should include:
+- A form element containing text entry fields for the following information:
 
-A CSS file that includes:
-styling for all required html elements (Any styling is acceptable, text/background color, margins, padding, etc...)
-the heading element and the paragraph element should use different fonts
-styling to arrange the elements as shown in the wireframe, (all elements centered horizontally, paragraph and image side by side)
-set a new background color for all elements except image.
-Assignment1-Wireframe.png
+- Name (*Required)
+- Email (*Required)
+- Phone Number
+- State of Residence
 
-A Javascript file that contains a function that is linked to your HTML button and should:
-grab the current date and time when the button is pressed and display it in console message AND a browser alert
-Note, some methods for grabbing time stamps in Javascript will return the date in Unix time (ie 1546588220446), you will need to parse this into a human readable timestamp. For example, Jan 03 2019 23:50:20 . Both values are the same time. 
+- There should be data validation enforcing required fields be filled in BEFORE submission. (Pro tip, Javascript is your friend here, HTML5 also hase a nice feature to help here)
+- Fields not marked required can be submitted blank.
 
-To setup your github pages account to serve your content, follow the instructions at pages.github.com (Links to an external site.)Links to an external site.
+For your PHP script:
+- The form data entered in the html should be sent via GET method.
+- Your PHP script should echo the data back to the user in the following format:
 
-Your GitHub repository should contain the 3 files listed above as well as a ReadMe.md file that includes a link to the page. Your submitted repo should resemble this: http://bobmcherry.github.io
+Name : <User entered data>
+Email: <User entered data>
+Phone : <User entered data, if no user entered data, do not show this line>
+State: <User entered data, if no user entered data, do not show this line>
+
+Please create a github repository named AD320-IA2-<lastname>, and submit a link to the repository. 
