@@ -1,4 +1,4 @@
-https://github.com/jerwest/AD320-IA2-Westfall.git
+https://github.com/jerwest/AD320-IA2-Westfall/
 
 This repository is for Individual Assignment #2 in AD 320 - Web App Development at North Seattle College.
 
@@ -26,4 +26,4 @@ Email: <User entered data>
 Phone : <User entered data, if no user entered data, do not show this line>
 State: <User entered data, if no user entered data, do not show this line>
 
-Please create a github repository named AD320-IA2-<lastname>, and submit a link to the repository. 
+Please create a github repository named AD320-IA2-<lastname>, and submit a link to the repository.
